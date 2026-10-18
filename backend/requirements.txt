@@ -1,0 +1,2 @@
+# Fat Browser Use — browser automation (installed to vendor/ on first backend start)
+playwright>=1.40.0,<2.0

@@ -1,0 +1,26 @@
+{
+  "id": "fat-browser-use",
+  "name": "Fat Browser Use",
+  "version": "1.0.0",
+  "description": "浏览器自动化基础包：基于 Playwright 的浏览器操控（导航、点击、填表、截图、元素选择器工具等）。宿主 flow 的浏览器类流程节点依赖本插件，按需安装。",
+  "entry": "remoteEntry.js",
+  "mfName": "FatBrowserUse",
+  "container": "FatBrowserUse",
+  "exposed": "./plugin",
+  "contributions": {
+    "activityBar": false,
+    "primarySidebar": false,
+    "panel": false,
+    "footer": false,
+    "routes": false,
+    "widgetTypes": false
+  },
+  "permissions": [],
+  "backend": {
+    "enabled": true,
+    "entry": "backend/main.py",
+    "requirements": "backend/requirements.txt",
+    "depsStrategy": "install",
+    "depsTimeoutSeconds": 3600
+  }
+}
