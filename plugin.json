@@ -20,7 +20,7 @@
     "enabled": true,
     "entry": "backend/main.py",
     "requirements": "backend/requirements.txt",
-    "depsStrategy": "install",
+    "depsStrategy": "vendor",
     "depsTimeoutSeconds": 3600
   }
 }

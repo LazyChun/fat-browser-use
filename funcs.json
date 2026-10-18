@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "60c98c0c-2c95-434a-a18a-be9a008a12b0",
+  "type": "bespokePlugin",
+  "name": "FatBrowserUse",
+  "description": "FatBrowserUse",
+  "features": [
+    {
+      "id": "fatbrowseruse",
+      "name": "FatBrowserUse",
+      "description": "FatBrowserUse",
+      "match": "FatBrowserUse"
+    }
+  ],
+  "version": "1.0.0",
+  "packageFile": "fat-browser-use_v1.0.0.zip",
+  "code": "fat-browser-use"
+}
