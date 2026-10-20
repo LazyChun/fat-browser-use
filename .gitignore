@@ -8,3 +8,5 @@ package-lock.json
 install.zip
 release/
 vendor/
+.deps_installed
+.deps_install_error
