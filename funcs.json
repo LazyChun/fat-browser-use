@@ -2,8 +2,8 @@
   "schemaVersion": 1,
   "id": "60c98c0c-2c95-434a-a18a-be9a008a12b0",
   "type": "bespokePlugin",
-  "name": "FatBrowserUse",
-  "description": "FatBrowserUse",
+  "name": "肥・浏览器控制",
+  "description": "浏览器自动化（Playwright）插件",
   "features": [
     {
       "id": "fatbrowseruse",
@@ -14,5 +14,10 @@
   ],
   "version": "1.0.0",
   "packageFile": "fat-browser-use_v1.0.0.zip",
-  "code": "fat-browser-use"
+  "code": "fat-browser-use",
+  "icon": "[icon]ChromeFilled",
+  "githubUrl": "https://github.com/LazyChun/fat-browser-use",
+  "engines": {
+    "fat-notes": ">=0.1.0"
+  }
 }
